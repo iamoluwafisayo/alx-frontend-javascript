@@ -6,17 +6,17 @@ interface Student {
 }
 
 const student1: Student = {
-  firstName: 'Paul',
-  lastName: 'Jerry',
-  age: 27,
+  firstName: 'John',
+  lastName: 'Peter',
+  age: 30,
   location: 'Nigeria'
 }
 
 const student2: Student = {
-  firstName: 'Jerry',
-  lastName: 'Parkerson',
+  firstName: 'Joshua',
+  lastName: 'Brian',
   age: 28,
-  location: 'Edo state'
+  location: 'Ekiti state'
 }
 
 const studentList: Array<Student> = [student1, student2];
